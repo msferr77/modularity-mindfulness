@@ -8,8 +8,79 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <img class="logo" src="" alt="">
+    <nav>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <img class="banner" src="" alt="">
+    <div class="bigcap">
+      <h1></h1>
+      <p></p>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <img class="pic" src="" alt="">
+      <h2 class="jap"></h2>
+      <h2 class="eng"></h2>
+      <p></p>
+      <div class="button">
+        <a href=""></a>
+      </div>
+    </div>
+
+    <div class="content">
+      <img class="pic" src="" alt="">
+      <h2 class="jap"></h2>
+      <h2 class="eng"></h2>
+      <p></p>
+      <div class="button">
+        <a href=""></a>
+      </div>
+    </div>
+
+    <div class="content">
+      <img class="pic" src="" alt="">
+      <h2 class="jap"></h2>
+      <h2 class="eng"></h2>
+      <p></p>
+      <div class="button">
+        <a href=""></a>
+      </div>
+    </div>
+  </main>
+
 
 
 
 </body>
 </html>
+
+
+- path: "index.html"
+  has:
+    - [
+        'link[href*="Noto"]',
+        "The Google Font, `Noto Sans` (regular & bold) is missing",
+      ]
+    - [
+        'i[lang="ja"]',
+        'The `<i>` tag should be used with the attribute `lang="ja"` to specify the parts of the website in Japanese',
+      ]
+  search:
+    - "Rock Gardens"
+    - "枯山水"
+    - "Viewing"
+    - "Gravel"
+    - "Symbolism"
+    - "自然の親密な本質を模倣し、人生の真の意味を発見する。"
+    - "閲覧"
+    - "砂利"
+    - "象徴主義"
+    - "© 794 Heian Period"
