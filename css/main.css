@@ -25,3 +25,23 @@ img {
   display: block;
   width: 100%;
 }
+
+
+
+
+- path: "css/main.css"
+  has:
+    - ["html", "font-family", '"Noto Sans", sans-serif']
+    - ["html", "line-height", "1.5"]
+    - ["html", "text-size-adjust", "100%"]
+    - ["html", "-webkit-text-size-adjust", "100%"]
+    - ["@38"]
+  search:
+    - '"Noto Sans JP"'
+    - "#e2e2e2"
+    - "#3783a3"
+    - "display: grid"
+    - "grid-template-columns"
+    - "display: flex"
+    - "justify-content"
+    - "align-items"
